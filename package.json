@@ -1,0 +1,23 @@
+{
+  "name": "learn_hardhat",
+  "version": "1.0.0",
+  "description": "learn_hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ceres-Coin/learn_hardhat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ceres-Coin/learn_hardhat/issues"
+  },
+  "homepage": "https://github.com/Ceres-Coin/learn_hardhat#readme",
+  "devDependencies": {
+    "hardhat": "^2.6.4"
+  }
+}
