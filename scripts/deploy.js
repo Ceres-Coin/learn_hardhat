@@ -9,6 +9,12 @@ async function main() {
     const token = await Token.deploy();
   
     console.log("Token address:", token.address);
+
+      // We get the contract to deploy
+    const Greeter = await ethers.getContractFactory("Greeter");
+    const greeter = await Greeter.deploy("Hello, Hardhat!");
+
+    console.log("Greeter deployed to:", greeter.address);
   }
   
   main()

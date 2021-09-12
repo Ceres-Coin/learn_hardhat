@@ -7,7 +7,7 @@
     "hardhat node": "npx hardhat node",
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
-    "DEPLOY ON localhost": "npx hardhat run scripts/deploy.js",
+    "DEPLOY ON localhost": "npx hardhat run scripts/deploy.js --network localhost",
     "DEPLOY ON bscTestnet": "npx hardhat run scripts/deploy.js --network bscTestnet",
     "run sample-script.js": "npx hardhat run scripts/sample-script.js --network localhost"
   },
