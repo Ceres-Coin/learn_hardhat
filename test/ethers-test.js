@@ -12,4 +12,23 @@ describe("test/ethers-test.js", function () {
     console.log(`acc1: ${acc1.address}`);
     console.log(`acc2: ${acc2.address}`);
   });
+
+  it("print blocknumber ",async function() {
+    await ethers.provider.getBlockNumber().then((blockNumber) => {
+      console.log("Current block number: " + blockNumber);
+    });
+  });
+
+  it("print ethers.constants ", async function() {
+    console.log(`AddressZero: ${ethers.constants.AddressZero}`);
+    console.log(`ONE: ${ethers.constants.One}`);
+    console.log(`TWO: ${ethers.constants.Two}`);
+    console.log(`WeiPerEther: ${ethers.constants.WeiPerEther}`);
+    console.log(`Zero: ${ethers.constants.Zero}`);
+    console.log(`EtherSymbol: ${ethers.constants.EtherSymbol}`);
+    console.log(`HashZero: ${ethers.constants.HashZero}`);
+    console.log(`MinInt256: ${ethers.constants.MinInt256}`);
+    console.log(`MaxUint256: ${ethers.constants.MaxUint256}`);
+    console.log(`MaxInt256: ${ethers.constants.MaxInt256}`);
+  })
 });
