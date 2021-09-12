@@ -8,6 +8,7 @@
     "hardhat console": "npx hardhat console",
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
+    "test --verbose": "npx hardhat test --verbose", 
     "DEPLOY ON localhost": "npx hardhat run scripts/deploy.js --network localhost",
     "DEPLOY ON bscTestnet": "npx hardhat run scripts/deploy.js --network bscTestnet",
     "run sample-script.js": "npx hardhat run scripts/sample-script.js --network localhost"
