@@ -4,6 +4,7 @@
   "description": "learn_hardhat",
   "main": "index.js",
   "scripts": {
+    "compile": "npx hardhat compile",
     "test": "npx hardhat test",
     "DEPLOY ON localhost": "npx hardhat run scripts/deploy.js",
     "DEPLOY ON bscTestnet": "npx hardhat run scripts/deploy.js --network bscTestnet"
