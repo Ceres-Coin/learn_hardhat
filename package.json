@@ -4,7 +4,8 @@
   "description": "learn_hardhat",
   "main": "index.js",
   "scripts": {
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "DEPLOY ON localhost": "npx hardhat run scripts/deploy.js"
   },
   "repository": {
     "type": "git",
