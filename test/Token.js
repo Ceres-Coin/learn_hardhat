@@ -2,7 +2,7 @@ const { expect } = require("chai");
 
 describe("Token contract", function () {
   it("Deployment should assign the total supply of tokens to the owner", async function () {
-    const [owner] = await ethers.getSigners();
+    const [owner,account1,account2] = await ethers.getSigners();
 
     const Token = await ethers.getContractFactory("Token");
 
@@ -10,5 +10,8 @@ describe("Token contract", function () {
 
     const ownerBalance = await hardhatToken.balanceOf(owner.address);
     expect(await hardhatToken.totalSupply()).to.equal(ownerBalance);
+    console.log(`owner: ${owner.address}`);
+    console.log(`account1: ${account1.address}`);
+    console.log(`account2: ${account2.address}`);
   });
 });
