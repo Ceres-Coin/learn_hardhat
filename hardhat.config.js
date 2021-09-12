@@ -14,7 +14,15 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 });
 
 module.exports = {
-  solidity: "0.7.3",
+  solidity: {
+    version: "0.7.1",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 1000,
+      },
+    },
+  },
   networks: {
     bscTestnet: {
       url: `https://data-seed-prebsc-1-s1.binance.org:8545`
