@@ -38,8 +38,12 @@
     "ethers": "^5.4.6",
     "hardhat": "^2.6.4",
     "hardhat-contract-sizer": "^2.0.3",
+    "hardhat-docgen": "^1.1.2",
     "hardhat-gas-reporter": "^1.0.4",
     "solidity-coverage": "^0.7.17",
     "web3": "^1.5.2"
+  },
+  "dependencies": {
+    "hardhat-tracer": "^1.0.0-alpha.6"
   }
 }

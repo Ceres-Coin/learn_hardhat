@@ -7,7 +7,7 @@ require("@nomiclabs/hardhat-web3");
 require("solidity-coverage");
 require("hardhat-gas-reporter");
 require("@nomiclabs/hardhat-web3");
-require("@tenderly/hardhat-tenderly");
+
 
 const bsctestnet_PRIVATE_KEY = "";
 
@@ -51,5 +51,5 @@ module.exports = {
       url: `https://data-seed-prebsc-1-s1.binance.org:8545`
       // accounts: [`0x${bsctestnet_PRIVATE_KEY}`],
     },
-  },
+  }
 };
