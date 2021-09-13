@@ -8,6 +8,7 @@
     "hardhat console": "npx hardhat console",
     "compile": "npx hardhat compile",
     "check contract size": "yarn run hardhat size-contracts",
+    "check contract security": "solhint 'contracts/**/*.sol'",
     "test": "npx hardhat test",
     "test coverage": "npx hardhat coverage",
     "test --verbose": "npx hardhat test --verbose",
