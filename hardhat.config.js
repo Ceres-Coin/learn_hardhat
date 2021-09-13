@@ -6,6 +6,7 @@ require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-web3");
 require("solidity-coverage");
 require("hardhat-gas-reporter");
+require('hardhat-contract-sizer');
 
 const bsctestnet_PRIVATE_KEY = "";
 

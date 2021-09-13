@@ -7,6 +7,7 @@
     "hardhat node": "npx hardhat node",
     "hardhat console": "npx hardhat console",
     "compile": "npx hardhat compile",
+    "check contract size": "yarn run hardhat size-contracts",
     "test": "npx hardhat test",
     "test coverage": "npx hardhat coverage",
     "test --verbose": "npx hardhat test --verbose",
@@ -33,6 +34,7 @@
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.4.6",
     "hardhat": "^2.6.4",
+    "hardhat-contract-sizer": "^2.0.3",
     "hardhat-gas-reporter": "^1.0.4",
     "solidity-coverage": "^0.7.17",
     "web3": "^1.5.2"
