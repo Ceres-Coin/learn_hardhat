@@ -5,6 +5,8 @@
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-web3");
 require("solidity-coverage");
+require("hardhat-gas-reporter");
+
 const bsctestnet_PRIVATE_KEY = "";
 
 task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
