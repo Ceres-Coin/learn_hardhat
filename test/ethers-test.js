@@ -30,5 +30,13 @@ describe("test/ethers-test.js", function () {
     console.log(`MinInt256: ${ethers.constants.MinInt256}`);
     console.log(`MaxUint256: ${ethers.constants.MaxUint256}`);
     console.log(`MaxInt256: ${ethers.constants.MaxInt256}`);
-  })
+  });
+
+  it("test cases for web3.eth.getAccounts()", async function() {
+    // console.log(await web3.eth.getAccounts());
+  });
+
+  it("test cases for web3.eth.getGasPrice", async function() {
+    console.log(await web3.eth.getGasPrice());
+  });
 });
